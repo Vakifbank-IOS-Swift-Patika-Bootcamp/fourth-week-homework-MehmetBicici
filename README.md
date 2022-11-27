@@ -1,5 +1,7 @@
 # fourth-week-homework
 
+# WARNING : While doing the homework, I used version 13.4.1 of Xcode 
+
 1- https://breakingbadapi.com/  API kullanılarak bir uygulama geliştirilecektir. Aşağıda detaylar verilmiştir.
 --
 
