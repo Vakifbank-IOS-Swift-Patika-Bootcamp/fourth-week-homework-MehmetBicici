@@ -11,23 +11,23 @@
 
 ## Giriş Ekranı
 
-![First Page](/Users/mehmetbicici/fourth-week-homework-MehmetBicici/Images/firstPage.png)
+![](Images/firstPage.png)
 ## 1.Tab - Karakterler:
 
-![Characters Page](/Users/mehmetbicici/fourth-week-homework-MehmetBicici/Images/chars.png)
+![(Images/chars.png)
 
 Karakter Detay Ekranı:
-![Character Details Page](/Users/mehmetbicici/fourth-week-homework-MehmetBicici/Images/charDetails.png)
+![](Images/charDetails.png)
 Karakterin Sözleri-Alıntıları Ekranı:
-![Character Quotes Page](/Users/mehmetbicici/fourth-week-homework-MehmetBicici/Images/charDetails/charQuotes.png)
+![](Images/charQuotes.png)
 
 ## 2.Tab - Bölümler:
-![Episodes Page](/Users/mehmetbicici/fourth-week-homework-MehmetBicici/Images/charDetails/episodes.png)
-![Episode Details](/Users/mehmetbicici/fourth-week-homework-MehmetBicici/Images/charDetails/episodeDetail.png)
+![Episodes Page](Images/episodes.png)
+![Episode Details](Images/episodeDetail.png)
 
 ## 3.Tab- IMDB Sayfası
  
-![IMDB Page](/Users/mehmetbicici/fourth-week-homework-MehmetBicici/Images/charDetails/imdb.png)
+![IMDB Page](Images/imdb.png)
 
 2- Clean Code - 1, 2, 3, 4 chapterlar özetlenmelidir.
 --
