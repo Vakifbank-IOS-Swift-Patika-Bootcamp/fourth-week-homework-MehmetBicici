@@ -21,8 +21,8 @@
 ![](Images/charQuotes.png)
 
 ## 2.Tab - Bölümler:
-![Episodes Page](Images/episodes.png)
-![Episode Details](Images/episodeDetail.png)
+![](Images/episodes.png)
+![](Images/episodesDetail.png)
 
 ## 3.Tab- IMDB Sayfası
 ![IMDB Page](Images/imdb.png)
