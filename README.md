@@ -14,11 +14,10 @@
 ![](Images/firstPage.png)
 ## 1.Tab - Karakterler:
 
-![(Images/chars.png)
+![](Images/chars.png)
 
-Karakter Detay Ekranı:
 ![](Images/charDetails.png)
-Karakterin Sözleri-Alıntıları Ekranı:
+
 ![](Images/charQuotes.png)
 
 ## 2.Tab - Bölümler:
@@ -26,7 +25,6 @@ Karakterin Sözleri-Alıntıları Ekranı:
 ![Episode Details](Images/episodeDetail.png)
 
 ## 3.Tab- IMDB Sayfası
- 
 ![IMDB Page](Images/imdb.png)
 
 2- Clean Code - 1, 2, 3, 4 chapterlar özetlenmelidir.
