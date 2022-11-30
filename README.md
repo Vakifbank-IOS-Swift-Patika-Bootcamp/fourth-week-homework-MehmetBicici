@@ -9,32 +9,25 @@
 • Activity indicator kullanılmalıdır.
 • Alert gösterimi yapılmalıdır.
 
+## Giriş Ekranı
+
+![First Page](/Users/mehmetbicici/fourth-week-homework-MehmetBicici/Images/firstPage.png)
 ## 1.Tab - Karakterler:
 
-• Bu ekranda karakterler listelenecektir.
-• CollectionViewda en az karakterin ismi, doğum günü ve takma adı olacaktır.
-• Listeden karaktere bastığımda karakter detay ekranına yönlenmelidir.
+![Characters Page](/Users/mehmetbicici/fourth-week-homework-MehmetBicici/Images/chars.png)
 
 Karakter Detay Ekranı:
-
-• Karakterin görseli ile birlikte en az 4 bilgisi yer almalıdır.
-• Ekranda bir button olmalı ve bu button karakterin sözleri(alıntıları) ekranına yönlenmelidir.
-
+![Character Details Page](/Users/mehmetbicici/fourth-week-homework-MehmetBicici/Images/charDetails.png)
 Karakterin Sözleri-Alıntıları Ekranı:
-
-• Ekranda karakterin sözleri-alıntıları listelenmelidir.
+![Character Quotes Page](/Users/mehmetbicici/fourth-week-homework-MehmetBicici/Images/charDetails/charQuotes.png)
 
 ## 2.Tab - Bölümler:
-
-• Ekranda bölümler listelenmelidir.
-• TableViewda en az ismi ve sezonu bulunmalıdır.
-• Listeden bölüme bastığımda ekranın üstünde bir detay view açılmalıdır.(ViewController değil View olacak).
-• View üzerinde bölümdeki oyuncular yer almalı sağ üst köşede kapat butonu olmalı.
-• Kapat butonu aksiyonu delegate ile yönetilebilmelidir.(Kapata bastığımda liste ekranında print yazılması yeterlidir.)
+![Episodes Page](/Users/mehmetbicici/fourth-week-homework-MehmetBicici/Images/charDetails/episodes.png)
+![Episode Details](/Users/mehmetbicici/fourth-week-homework-MehmetBicici/Images/charDetails/episodeDetail.png)
 
 ## 3.Tab- IMDB Sayfası
  
-• Ekranda Webview ile IMDBde dizinin sayfası açılmalıdır.
+![IMDB Page](/Users/mehmetbicici/fourth-week-homework-MehmetBicici/Images/charDetails/imdb.png)
 
 2- Clean Code - 1, 2, 3, 4 chapterlar özetlenmelidir.
 --
