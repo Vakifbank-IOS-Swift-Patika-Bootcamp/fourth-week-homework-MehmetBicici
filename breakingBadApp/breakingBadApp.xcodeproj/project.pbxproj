@@ -53,6 +53,14 @@
 		FF7C7853292EB79000550C0C /* AllCharsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7C7851292EB79000550C0C /* AllCharsCollectionViewCell.swift */; };
 		FF7C7854292EB79000550C0C /* AllCharsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF7C7852292EB79000550C0C /* AllCharsCollectionViewCell.xib */; };
 		FF7C785A292EBD4E00550C0C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FF7C7859292EBD4E00550C0C /* Kingfisher */; };
+		FF97053C29399ED7006DEEC3 /* Note.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF97053A29399ED7006DEEC3 /* Note.xcdatamodeld */; };
+		FF97053E2939A188006DEEC3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF97053D2939A188006DEEC3 /* CoreDataManager.swift */; };
+		FFCA5C002938C6EF000AFC5C /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA5BFE2938C6EF000AFC5C /* NotesViewController.swift */; };
+		FFCA5C012938C6EF000AFC5C /* NotesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFCA5BFF2938C6EF000AFC5C /* NotesViewController.xib */; };
+		FFCA5C032938CAD9000AFC5C /* AddOrEditNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA5C022938CAD9000AFC5C /* AddOrEditNotes.swift */; };
+		FFCA5C072938CB2B000AFC5C /* AddOrEditNotes.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFCA5C062938CB2B000AFC5C /* AddOrEditNotes.xib */; };
+		FFCA5C0B2938D5B9000AFC5C /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA5C092938D5B9000AFC5C /* NoteTableViewCell.swift */; };
+		FFCA5C0C2938D5B9000AFC5C /* NoteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFCA5C0A2938D5B9000AFC5C /* NoteTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,6 +109,14 @@
 		FF7C784D292EA59F00550C0C /* OpenPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpenPageViewController.xib; sourceTree = "<group>"; };
 		FF7C7851292EB79000550C0C /* AllCharsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCharsCollectionViewCell.swift; sourceTree = "<group>"; };
 		FF7C7852292EB79000550C0C /* AllCharsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllCharsCollectionViewCell.xib; sourceTree = "<group>"; };
+		FF97053B29399ED7006DEEC3 /* Note.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Note.xcdatamodel; sourceTree = "<group>"; };
+		FF97053D2939A188006DEEC3 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		FFCA5BFE2938C6EF000AFC5C /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		FFCA5BFF2938C6EF000AFC5C /* NotesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotesViewController.xib; sourceTree = "<group>"; };
+		FFCA5C022938CAD9000AFC5C /* AddOrEditNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrEditNotes.swift; sourceTree = "<group>"; };
+		FFCA5C062938CB2B000AFC5C /* AddOrEditNotes.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddOrEditNotes.xib; sourceTree = "<group>"; };
+		FFCA5C092938D5B9000AFC5C /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		FFCA5C0A2938D5B9000AFC5C /* NoteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +277,7 @@
 		FF27D81F292C008600D9A5D5 /* breakingBadApp */ = {
 			isa = PBXGroup;
 			children = (
+				FFCA5BE12937DC1B000AFC5C /* Notes */,
 				FF17136E2933CD3F00C68F0A /* App */,
 				FF17135F2932D39A00C68F0A /* IMDB */,
 				FF17133E29313B7300C68F0A /* Episode Details */,
@@ -277,6 +294,7 @@
 				FF27D829292C008800D9A5D5 /* Assets.xcassets */,
 				FF27D82B292C008800D9A5D5 /* LaunchScreen.storyboard */,
 				FF27D82E292C008800D9A5D5 /* Info.plist */,
+				FF97053A29399ED7006DEEC3 /* Note.xcdatamodeld */,
 			);
 			path = breakingBadApp;
 			sourceTree = "<group>";
@@ -298,6 +316,7 @@
 				FF27D83E292C08D300D9A5D5 /* QuotesModel.swift */,
 				FF27D842292C092C00D9A5D5 /* EpisodeDetailsModel.swift */,
 				FF7C7817292E92CA00550C0C /* ListOfAllEpisodesModel.swift */,
+				FF97053D2939A188006DEEC3 /* CoreDataManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -400,6 +419,43 @@
 			path = cells;
 			sourceTree = "<group>";
 		};
+		FFCA5BE12937DC1B000AFC5C /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				FFCA5BEC2937E0F9000AFC5C /* View Model */,
+				FFCA5BE22937DC2D000AFC5C /* Views */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		FFCA5BE22937DC2D000AFC5C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FFCA5C082938D585000AFC5C /* Cell */,
+				FFCA5BFE2938C6EF000AFC5C /* NotesViewController.swift */,
+				FFCA5BFF2938C6EF000AFC5C /* NotesViewController.xib */,
+				FFCA5C022938CAD9000AFC5C /* AddOrEditNotes.swift */,
+				FFCA5C062938CB2B000AFC5C /* AddOrEditNotes.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FFCA5BEC2937E0F9000AFC5C /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		FFCA5C082938D585000AFC5C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FFCA5C092938D5B9000AFC5C /* NoteTableViewCell.swift */,
+				FFCA5C0A2938D5B9000AFC5C /* NoteTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -478,10 +534,13 @@
 				FF27D82A292C008800D9A5D5 /* Assets.xcassets in Resources */,
 				FF7C783B292EA0F200550C0C /* AllCharsViewController.xib in Resources */,
 				FF7C7843292EA14000550C0C /* AllEpisodesViewController.xib in Resources */,
+				FFCA5C0C2938D5B9000AFC5C /* NoteTableViewCell.xib in Resources */,
 				FF27D828292C008600D9A5D5 /* Main.storyboard in Resources */,
 				FF7C784F292EA59F00550C0C /* OpenPageViewController.xib in Resources */,
+				FFCA5C072938CB2B000AFC5C /* AddOrEditNotes.xib in Resources */,
 				FF1713372930E8BD00C68F0A /* QuotesTableViewCell.xib in Resources */,
 				FF7C7854292EB79000550C0C /* AllCharsCollectionViewCell.xib in Resources */,
+				FFCA5C012938C6EF000AFC5C /* NotesViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,8 +555,11 @@
 				FF27D83B292C08AA00D9A5D5 /* ListOfAllCharsModel.swift in Sources */,
 				FF1713622932D48A00C68F0A /* WebViewViewController.swift in Sources */,
 				FF1713362930E8BD00C68F0A /* QuotesTableViewCell.swift in Sources */,
+				FF97053E2939A188006DEEC3 /* CoreDataManager.swift in Sources */,
+				FFCA5C002938C6EF000AFC5C /* NotesViewController.swift in Sources */,
 				FF27D825292C008600D9A5D5 /* ViewController.swift in Sources */,
 				FF17136D2932DB3F00C68F0A /* BaseViewController.swift in Sources */,
+				FFCA5C032938CAD9000AFC5C /* AddOrEditNotes.swift in Sources */,
 				FF171329293057D900C68F0A /* CharDetailsViewController.swift in Sources */,
 				FF27D821292C008600D9A5D5 /* AppDelegate.swift in Sources */,
 				FF7C7842292EA14000550C0C /* AllEpisodesViewController.swift in Sources */,
@@ -514,6 +576,7 @@
 				FF17133C2930FF8500C68F0A /* AllEpisodesTableViewCell.swift in Sources */,
 				FF27D83F292C08D300D9A5D5 /* QuotesModel.swift in Sources */,
 				FF7C784E292EA59F00550C0C /* OpenPageViewController.swift in Sources */,
+				FF97053C29399ED7006DEEC3 /* Note.xcdatamodeld in Sources */,
 				FF7C783F292EA12B00550C0C /* AllEpisodesViewModel.swift in Sources */,
 				FF17134529313C0300C68F0A /* EpisodeDetailsViewController.swift in Sources */,
 				FF17134229313BD200C68F0A /* EpisodeDetailsViewModel.swift in Sources */,
@@ -521,6 +584,7 @@
 				FF171326293057AE00C68F0A /* CharDetailsViewModel.swift in Sources */,
 				FF7C7818292E92CA00550C0C /* ListOfAllEpisodesModel.swift in Sources */,
 				FF27D836292C00D400D9A5D5 /* BaseResponse.swift in Sources */,
+				FFCA5C0B2938D5B9000AFC5C /* NoteTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -783,6 +847,19 @@
 			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		FF97053A29399ED7006DEEC3 /* Note.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF97053B29399ED7006DEEC3 /* Note.xcdatamodel */,
+			);
+			currentVersion = FF97053B29399ED7006DEEC3 /* Note.xcdatamodel */;
+			path = Note.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FF27D815292C008600D9A5D5 /* Project object */;
 }

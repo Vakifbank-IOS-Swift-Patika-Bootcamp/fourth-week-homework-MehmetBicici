@@ -35,7 +35,6 @@ final class Client {
         }
         
         var url: URL {
-            print(stringValue)
             return URL(string: stringValue)!
         }
     }
