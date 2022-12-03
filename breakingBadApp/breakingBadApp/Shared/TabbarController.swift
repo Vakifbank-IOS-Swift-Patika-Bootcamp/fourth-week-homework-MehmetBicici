@@ -21,10 +21,12 @@ class TabbarController: UITabBarController {
         let allEpisodesViewController = AllEpisodesViewController()
         let openPageViewController = OpenPageViewController()
         let webViewController = WebViewViewController()
+        let notesViewController = NotesViewController()
         allCharsViewController.title = "Chars"
         allEpisodesViewController.title = "Episodes"
         openPageViewController.title = "Open"
         webViewController.title = "IMDB"
-        self.setViewControllers([openPageViewController,allEpisodesViewController,allCharsViewController,webViewController], animated: true)
+        notesViewController.title = "Notes"
+        self.setViewControllers([openPageViewController,allEpisodesViewController,allCharsViewController,webViewController,notesViewController], animated: true)
     }
 }

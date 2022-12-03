@@ -54,13 +54,11 @@ extension AllEpisodesViewController: UITableViewDelegate, UITableViewDataSource 
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
         let selectedEpisodeId = viewModel.getEpisodeId(atIndex: indexPath.row)
         let episodeDetailsViewController = EpisodeDetailsViewController(nibName: "EpisodeDetailsViewController", bundle: nil)
         episodeDetailsViewController.setEpisodeId(episodeId: selectedEpisodeId)
         episodeDetailsViewController.delegate = self
         self.sheet(viewController: episodeDetailsViewController, animated: true,completion: nil)
-
     }
     
     func sheet(viewController: UIViewController, animated flag: Bool, completion: (() -> Void)? = nil) {
